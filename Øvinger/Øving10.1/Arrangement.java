@@ -5,9 +5,9 @@ public class Arrangement {
     private String location;
     private String arrangor;
     private String type;
-    private int dato;
+    private long  dato;
 
-    public Arrangement(String id, String arrangement, String location, String arrangor, String type, int dato) {
+    public Arrangement(String id, String arrangement, String location, String arrangor, String type, long dato) {
         this.id = id;
         this.arrangement = arrangement;
         this.location = location;
@@ -32,7 +32,7 @@ public class Arrangement {
         return type;
     }
 
-    public int getDato() {
+    public long getDato() {
         return dato;
     }
 
