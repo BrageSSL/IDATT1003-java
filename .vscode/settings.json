@@ -1,3 +1,6 @@
 {
-    "java.dependency.syncWithFolderExplorer": false
+    "java.dependency.syncWithFolderExplorer": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "java.debug.settings.onBuildFailureProceed": true
 }
